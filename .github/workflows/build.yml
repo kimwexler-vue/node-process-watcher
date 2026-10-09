@@ -18,7 +18,7 @@ on:
       win_version:
         description: 'windows版本'
         required: false
-        default: 'windows-latest'
+        default: 'windows-2022'
 
 env: # 用来定义环境变量 可用于工作流中所有作业的步骤的变量的 map
   # See https://github.com/nodejs/release#release-schedule
