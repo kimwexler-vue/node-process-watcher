@@ -5,9 +5,9 @@
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": {
-    "type": "git",
-    "url": "git@github.com:xiaobaidadada/node-process-watcher.git"
-  },
+  "type": "git",
+  "url": "https://github.com/kimwexler-vue/node-process-watcher.git"
+   }
   "scripts": {
     "install": "prebuild-install --verbose || npm run install_build",
     "install_build": "node-gyp rebuild --release",
